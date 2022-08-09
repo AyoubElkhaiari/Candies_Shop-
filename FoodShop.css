@@ -1,0 +1,203 @@
+:root{
+    --clr-primary : rgb(248,26,92) ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    font-size: 2rem ;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+.navbar-brand:hover {
+    color: black;
+}
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+.nav-link:hover {
+    color: black;
+}
+.search {
+    height: 40px;
+    width:  80% ;
+    border-radius: 60px;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid var(--clr-primary);
+    font-family: 'Rubik', sans-serif;
+    margin-right: -35px;
+
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: var(--clr-primary);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main {
+    background: url("candy2.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+/* .main h1::before {
+    content:attr(data-text) ;
+    position: absolute ;
+    top: 0;
+    left: 0;
+    color: var(--clr-primary);
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid var(--clr-primary);
+    width: 0;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate 
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+    
+} */
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: var(--clr-primary);
+    color: rgb(240, 235, 235);
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 0.5s ;
+}
+.btn1:hover{
+    background-color:rgb(226, 10, 75) ;
+    
+}
+/* .col-lg-5 span {
+    position: relative;
+
+}
+.col-lg-5 span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #343f4f;
+    border-left: 2px solid #fc6d6d;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+    
+} */
+.product {
+    background-color: #F6F5F6;
+}
+/* .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    font-size: 5rem;
+    border-top: 20px solid #f00;
+  } */
+#trending {
+
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.shop {
+    background-color: #F6F5F6;
+}
+
+/* .vertical-line {
+    width: 1px;
+    height: 500px;
+    background-color: silver;
+} */
+.apple {
+    
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) , url("bg2.jpg") no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1 {
+    font-family: 'Lobster', cursive;
+}
+.contact{
+    background-color: #F6F5F6;
+}
+.news {
+    background:black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p {
+    margin: 0;
+
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.fab:hover {
+    
+    color:var(--clr-primary);
+}
